@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../dist/output.css" />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Project Tailwind dengan NPM</title>
+  </head>
+  <body class="font-Inter">
+    <!-- Navbar -->
+    <nav class="container mx-auto flex items-center justify-between py-3">
+      <div>
+        <img src="/images/osiris_logo.png" width="180" height="70" alt="" />
+      </div>
+      <ul class="flex gap-6 cursor-pointer">
+        <li>Home</li>
+        <li>About</li>
+        <li>Community</li>
+        <li>Contact</li>
+      </ul>
+      <button class="rounded-full text-sm bg-slate-200 p-2 w-32 h-10">
+        Login
+      </button>
+    </nav>
+    <!-- End of Navbar -->
+
+    <main class="container mx-auto">
+      <!-- Hero Section -->
+      <section class="bg-bg-hero bg-cover bg-no-repeat my-8 h-full rounded-lg">
+        <div class="p-8">
+          <h1 class="text-5xl font-extrabold text-color-title">
+            Magic thing happen in your <br />
+            modern property
+          </h1>
+          <p class="my-6 font-light text-color-description text-lg">
+            Creating modern properties is our speciality, with a lot <br />
+            of experience we will help you create the modern properties <br />
+            you want.
+          </p>
+          <div class="flex gap-4">
+            <button class="p-3 bg-blue-700 shadow-md text-white">
+              Browse thousands of Property
+            </button>
+            <button class="p-3 bg-slate-400 text-white">Catalog</button>
+          </div>
+          <div class="flex gap-20 mt-44">
+            <div class="mt-14">
+              <h2 class="font-extrabold text-4xl">450+</h2>
+              <p class="font-light text-base">Property sold</p>
+            </div>
+            <div class="mt-14">
+              <h2 class="font-extrabold text-4xl">122</h2>
+              <p class="font-light text-base">Satisfied Client</p>
+            </div>
+            <div class="mt-14">
+              <h2 class="font-extrabold text-4xl">25</h2>
+              <p class="font-light text-base">Years Experience</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End of Hero Section -->
+
+      <!-- Choose Your Type Section -->
+      <section class="flex gap-32 my-60">
+        <div>
+          <img src="/images/choose-main.png" width="740" height="870" alt="" />
+        </div>
+        <div class="flex flex-col gap-12">
+          <img src="/images/choose-line.png" width="224" height="40" alt="" />
+          <h2 class="font-extrabold text-6xl text-color-title">
+            Choose Your Type Easier With Us
+          </h2>
+          <p class="text-sm text-color-description text-lg">
+            Finding the property model you love has never been easier. With a
+            strategic location and easy to reach, it can be personalized easily
+            with our agents
+          </p>
+          <div class="flex justify-between">
+            <img src="/images/Ellipse 5.png" width="110" height="110" alt="" />
+            <img src="/images/Ellipse 6.png" width="110" height="110" alt="" />
+            <img src="/images/Ellipse 7.png" width="110" height="110" alt="" />
+            <img src="/images/Ellipse 8.png" width="110" height="110" alt="" />
+            <img src="/images/Ellipse 9.png" width="110" height="110" alt="" />
+          </div>
+          <button class="p-3 bg-blue-700 shadow-md text-white w-96">
+            Browse thousands of Property
+          </button>
+        </div>
+      </section>
+      <!-- End of Choose Your Type Section -->
+    </main>
+
+    <!-- Why Choose Us Sectiom -->
+    <section class="bg-bg-why-choose-us bg-cover bg-no-repeat p-20 my-40">
+      <div class="container mx-auto">
+        <div class="flex flex-col items-center gap-5">
+          <h4 class="text-3xl text-green-500 font-bold">Why Choose Us</h4>
+          <h2 class="text-6xl text-color-title font-bold">
+            With 25 Years Experience
+          </h2>
+          <p class="text-lg text-color-description font-light">
+            We are ready to help you find your dream house
+          </p>
+        </div>
+        <div class="flex gap-16 mt-28">
+          <div
+            class="rounded-border-radius-card bg-white flex flex-col gap-10 p-6 w-width-card"
+          >
+            <img src="/images/icon1.png" width="150" height="150" alt="" />
+            <h4 class="text-color-title font-bold text-4xl">
+              Choose your type
+            </h4>
+            <p class="text-color-description font-light text-lg">
+              Find what property you want with the locations, and easily choose
+              the type.
+            </p>
+          </div>
+          <div
+            class="rounded-border-radius-card bg-white flex flex-col gap-10 p-6 w-width-card"
+          >
+            <img src="/images/icon2.png" width="150" height="150" alt="" />
+            <h4 class="text-color-title font-bold text-4xl">Contact Number</h4>
+            <p class="text-color-description font-light text-lg">
+              Find the contact number that are listed in your type property and
+              come to see the property you want directly.
+            </p>
+          </div>
+          <div
+            class="rounded-border-radius-card bg-white flex flex-col gap-10 p-6 w-width-card"
+          >
+            <img src="/images/icon3.png" width="150" height="150" alt="" />
+            <h4 class="text-color-title font-bold text-4xl">
+              Easy and Secure Payment
+            </h4>
+            <p class="text-color-description font-light text-lg">
+              Ready to get your property? Sign the contract and your property
+              ready for you.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Why Choose Us Sectiom -->
+
+    <main class="container mx-auto">
+      <!-- Article Section -->
+      <section class="my-44">
+        <h2 class="text-color-title font-bold text-5xl">
+          Featured Articles and Tips
+        </h2>
+        <div class="grid grid-cols-2 gap-8 mt-24">
+          <div class="flex flex-col gap-8">
+            <img
+              src="/images/blog1.png"
+              class="object-cover"
+              width="775"
+              alt=""
+            />
+            <h3 class="text-color-title font-bold text-4xl">
+              Hallway Interior with Cabinet and Potted Plant near the door
+            </h3>
+            <p class="text-color-description text-lg">
+              The inside of your home is likely already decked out with
+              houseplants that give your space personality, but guess what: Your
+              front door deserves some plant love, too. Whether you've got a
+              shady porch perfect for trailing English ivy.
+            </p>
+          </div>
+          <div class="flex flex-col gap-4">
+            <div class="flex gap-2 h-40">
+              <div class="flex flex-col gap-3">
+                <h4 class="text-color-title font-bold text-2xl">
+                  3 Interior Design Tips that Make a Rented Space Feel Like Home
+                </h4>
+                <p class="text-color-description text-lg">Design2Taste Blog</p>
+              </div>
+              <img src="/images/blog2.png" width="170" height="170" alt="" />
+            </div>
+
+            <div class="flex gap-2 h-40">
+              <div class="flex flex-col gap-3">
+                <h4 class="text-color-title font-bold text-2xl">
+                  How to Protect Furniture While Renovating
+                </h4>
+                <p class="text-color-description text-lg">Ivan Dimitrijevic</p>
+              </div>
+              <img src="/images/blog3.png" width="170" height="170" alt="" />
+            </div>
+
+            <div class="flex gap-2 h-40">
+              <div class="flex flex-col gap-3">
+                <h4 class="text-color-title font-bold text-2xl">
+                  Don't Lose Your Marbles : How to Care for Your Marble
+                  Furniture
+                </h4>
+                <p class="text-color-description text-lg">France and Son</p>
+              </div>
+              <img src="/images/blog4.png" width="170" height="170" alt="" />
+            </div>
+
+            <div class="flex gap-2 h-40">
+              <div class="flex flex-col gap-3">
+                <h4 class="text-color-title font-bold text-2xl">
+                  Dear People Who Live in Fancy Tiny House
+                </h4>
+                <p class="text-color-description text-lg">Lauren Modery</p>
+              </div>
+              <img src="/images/blog5.png" width="170" height="170" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End of Article Section -->
+
+      <!-- Support Section -->
+      <section class="grid grid-cols-2 gap-12 my-40">
+        <div class="flex flex-col gap-8">
+          <h2 class="text-color-title font-bold text-6xl">
+            Friendly Support That Cares
+          </h2>
+          <p class="text-color-description text-lg">
+            Customer service online 7x24 Hours. So don't be worry, you're
+            special and we ready to hear it.
+          </p>
+          <div class="flex gap-3">
+            <button class="bg-blue-600 text-white p-3">
+              Help Center and FAQ
+            </button>
+            <button class="bg-slate-400 text-white p-3">Make a Call</button>
+          </div>
+        </div>
+        <div>
+          <img src="/images/support_image.png" alt="" />
+        </div>
+      </section>
+      <!-- End of Support Section -->
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="p-12 bg-slate-200">
+        <div class="flex justify-center items-center flex-col gap-5">
+          <h3 class="text-color-title font-bold text-6xl">
+            Get Started With Us
+          </h3>
+          <p class="text-color-description font-light">
+            Creating modern properties is our speciality, with a lot experience
+            <br />
+            we will help you create the modern properties you want.
+          </p>
+          <button class="bg-blue-600 text-white p-3 w-80">
+            Browse thousands of Property
+          </button>
+        </div>
+      </div>
+      <div class="bg-gray-900 text-white">
+        <div class="container mx-auto p-6 flex justify-between">
+          <div>
+            <div class="flex gap-3 items-center">
+              <img src="/images/logo.png" width="70" height="70" alt="" />
+              <p class="font-bold">Osiris Real Estate International</p>
+            </div>
+            <p class="mt-3">&copy; Copyright 2023</p>
+          </div>
+          <div>
+            <h4 class="font-bold text-2xl">Terms and Policies</h4>
+            <div class="flex flex-col gap-5 mt-4">
+              <a href="#">Terms of Service</a>
+              <a href="#">Medium Rules</a>
+              <a href="#">Privacy Policy</a>
+              <a href="#">Partner Program Terms</a>
+            </div>
+          </div>
+          <div>
+            <h4 class="font-bold text-2xl">Company</h4>
+            <div class="flex flex-col gap-5 mt-4">
+              <a href="#">About</a>
+              <a href="#">Our Timeline</a>
+              <a href="#">Contact</a>
+              <a href="#">Careers</a>
+            </div>
+          </div>
+          <div>
+            <h4 class="font-bold text-2xl">Office</h4>
+            <div class="flex flex-col gap-5 mt-4">
+              <a href="#">PT. Osiris Real Estate Indonesia</a>
+              <a href="#">Jl. KH. Wahid Hasyim No. 10D</a>
+              <a href="#">Jakarta, Indonesia</a>
+              <a href="#">team@OsirisRealEstate.com</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End of Footer Section -->
+  </body>
+</html>
